@@ -1072,6 +1072,7 @@ GameObject:
   - component: {fileID: 3528701525065065620}
   - component: {fileID: 5266933999563539585}
   - component: {fileID: 1029310053321726800}
+  - component: {fileID: 3382553895248017580}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1224,6 +1225,8 @@ MonoBehaviour:
         byte0027: 0
         byte0028: 0
         byte0029: 0
+  PlayerColorIndex:
+    m_InternalValue: 0
 --- !u!114 &5946369560411557510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1307,3 +1310,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TotalCoins:
     m_InternalValue: 0
+--- !u!114 &3382553895248017580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8923566233319816646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c92cdb59ee660e4e9e83b389125be4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 4087531591799644537}
+  tankBody: {fileID: 7955243105143582134}
+  tankTurret: {fileID: 8548791072301137352}
+  tankColor:
+  - {r: 0.16470589, g: 0.50980395, b: 1, a: 1}
+  - {r: 1, g: 0.9490196, b: 0, a: 1}
+  - {r: 1, g: 0.16470589, b: 0.8392157, a: 1}
+  - {r: 1, g: 0.16470589, b: 0.20784314, a: 1}
+  - {r: 0.19607843, g: 0.69803923, b: 0, a: 1}
+  colorIndex: 0
