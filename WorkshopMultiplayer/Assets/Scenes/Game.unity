@@ -1498,8 +1498,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 952163348}
-  - component: {fileID: 952163347}
   - component: {fileID: 952163349}
+  - component: {fileID: 952163347}
   m_Layer: 0
   m_Name: GameHUD
   m_TagString: Untagged
@@ -1519,8 +1519,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f2cc89e6c443c446b33b38c17639961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leaderboardEntityHolder: {fileID: 0}
-  leaderboardEntityPrefab: {fileID: 0}
+  leaderboardEntityHolder: {fileID: 1192693568}
+  leaderboardEntityPrefab: {fileID: 3064457851622214916, guid: 9378ecec07f6869439362fa26325564d, type: 3}
 --- !u!4 &952163348
 Transform:
   m_ObjectHideFlags: 0
